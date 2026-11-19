@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "file": "glass102.jpg",
+      "label": "Plástico",
+      "model_version": "ecoclasifica-v1",
+      "predicted_class": "plastic",
+      "score": 0.6532730460166931,
+      "scores": {
+        "Metal": 0.01606816239655018,
+        "Plástico": 0.6532730460166931,
+        "Vidrio": 0.33065879344940186
+      },
+      "status": "ok"
+    }
+  ]
+}

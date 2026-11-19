@@ -1,0 +1,84 @@
+{
+  "seed": 42,
+  "source_images": 1393,
+  "usable_images": 1387,
+  "excluded_images": 6,
+  "split_counts": {
+    "train": {
+      "Vidrio": 348,
+      "Metal": 287,
+      "Plástico": 336
+    },
+    "validation": {
+      "Vidrio": 75,
+      "Metal": 61,
+      "Plástico": 72
+    },
+    "test": {
+      "Vidrio": 75,
+      "Metal": 61,
+      "Plástico": 72
+    }
+  },
+  "best_epoch": 35,
+  "epochs_executed": 50,
+  "validation_f1_macro": 0.8754370406845838,
+  "test_report": {
+    "Vidrio": {
+      "precision": 0.9117647058823529,
+      "recall": 0.8266666666666667,
+      "f1-score": 0.8671328671328671,
+      "support": 75.0
+    },
+    "Metal": {
+      "precision": 0.8852459016393442,
+      "recall": 0.8852459016393442,
+      "f1-score": 0.8852459016393442,
+      "support": 61.0
+    },
+    "Plástico": {
+      "precision": 0.8481012658227848,
+      "recall": 0.9305555555555556,
+      "f1-score": 0.8874172185430463,
+      "support": 72.0
+    },
+    "accuracy": 0.8798076923076923,
+    "macro avg": {
+      "precision": 0.881703957781494,
+      "recall": 0.8808227079538554,
+      "f1-score": 0.8799319957717526,
+      "support": 208.0
+    },
+    "weighted avg": {
+      "precision": 0.8819502119250816,
+      "recall": 0.8798076923076923,
+      "f1-score": 0.8794663690868478,
+      "support": 208.0
+    }
+  },
+  "auc": {
+    "Vidrio": 0.9647117794486215,
+    "Metal": 0.9762462361993978,
+    "Plástico": 0.9767156862745098
+  },
+  "auc_macro": 0.972557900640843,
+  "onnx_max_absolute_difference": 1.7285346984863281e-06,
+  "confusion_matrix": [
+    [
+      62,
+      6,
+      7
+    ],
+    [
+      2,
+      54,
+      5
+    ],
+    [
+      4,
+      1,
+      67
+    ]
+  ],
+  "archive_sha256": "0bf472790f8b20e5c950d5b5012a9d38af0d3392efd65f8ce171334fc16b07c2"
+}

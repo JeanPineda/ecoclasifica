@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EcoClasifica · Identifica materiales</title>
+<link rel="stylesheet" href="/static/style.css"></head>
+<body><header><a href="/" class="brand"><span class="mark">E</span>EcoClasifica</a><span>Proyecto de visión por computador</span></header>
+<main><section class="intro"><div class="eyebrow">PLÁSTICO · VIDRIO · METAL</div><h1>Una foto para<br>conocer el material.</h1><p>Carga fotos de un objeto por imagen y revisa el material que sugiere el modelo.</p></section>
+<section class="workspace" aria-label="Clasificador de imágenes"><div class="upload"><h2>Selecciona tus imágenes</h2><p>JPG o PNG · Hasta 10 fotos · 5 MB por foto</p><label class="picker" for="images"><span class="plus">+</span><strong>Elegir imágenes</strong><span>También puedes seleccionar varias a la vez</span></label><input id="images" type="file" accept="image/jpeg,image/png" multiple><div id="preview" class="preview"></div><button id="classify" disabled>Clasificar imágenes</button><p id="status" role="status" aria-live="polite">Selecciona imágenes para comenzar.</p></div>
+<div class="guide"><h2>Para una mejor foto</h2><ol><li>Coloca un solo objeto sobre un fondo claro.</li><li>Usa buena iluminación y mantén el objeto centrado.</li><li>Revisa la sugerencia antes de separar el residuo.</li></ol><div class="scope"><strong>El modelo reconoce tres materiales</strong><p>Otros objetos también pueden recibir una de estas etiquetas. La puntuación expresa la salida del modelo.</p><p>El contenedor adecuado depende de las reglas del lugar y del estado del residuo.</p></div></div></section>
+<section id="results-section" hidden><div class="results-heading"><h2>Resultados</h2><button class="secondary" id="download">Descargar CSV</button></div><div id="results" class="results"></div></section>
+<footer>Jean Paul Pineda Pinzón · Universidad de La Salle<br><a href="/api">Información de la API</a> · Las fotos se procesan en memoria.</footer></main>
+<script src="/static/app.js"></script></body></html>

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "glass115.jpg",
+    "reason": "conflicting_labels_in_similarity_group"
+  },
+  {
+    "file": "metal91.jpg",
+    "reason": "conflicting_labels_in_similarity_group"
+  },
+  {
+    "file": "glass176.jpg",
+    "reason": "conflicting_labels_in_similarity_group"
+  },
+  {
+    "file": "plastic152.jpg",
+    "reason": "conflicting_labels_in_similarity_group"
+  },
+  {
+    "file": "glass389.jpg",
+    "reason": "conflicting_labels_in_similarity_group"
+  },
+  {
+    "file": "plastic332.jpg",
+    "reason": "conflicting_labels_in_similarity_group"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "test_images_rechecked": 208,
+  "preprocessing_max_difference": 0.0,
+  "checks": [
+    "home",
+    "health",
+    "empty request",
+    "invalid image",
+    "mixed batch",
+    "batch limit",
+    "file size limit",
+    "208 predictions match evaluation"
+  ]
+}
